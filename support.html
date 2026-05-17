@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ReadyKids Technical Support — family morning routine app. Bundle ID com.jchen.ReadyKids." />
+  <title>技术支持 — ReadyKids</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", sans-serif;
+      line-height: 1.65;
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 3.5rem;
+      color: #1a1a1a;
+      background: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e8e8e8; background: #121417; }
+      .meta, .toc { color: #aaa; }
+      h2 { border-bottom-color: rgba(255,255,255,.2); }
+      .notice { background: rgba(255,255,255,.06); border-left-color: #888; }
+      .notice.important { border-left-color: #c08400; background: rgba(192,132,0,.12); }
+      .notice.legal { border-left-color: #6b7280; }
+    }
+    h1 { font-size: 1.6rem; margin-top: 0; line-height: 1.3; }
+    h2 { font-size: 1.15rem; margin-top: 1.85rem; border-bottom: 1px solid rgba(128,128,128,.35); padding-bottom: .35rem; }
+    h3 { font-size: 1rem; margin-top: 1.25rem; }
+    p, li { font-size: 0.94rem; }
+    ul, ol { padding-left: 1.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 1rem 0; }
+    th, td { border: 1px solid rgba(128,128,128,.4); padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+    th { background: rgba(128,128,128,.1); }
+    .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.25rem; }
+    .toc { font-size: 0.9rem; margin: 1rem 0 1.5rem; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    .notice { border-left: 4px solid #444; padding: 0.75rem 1rem; margin: 1rem 0; background: rgba(128,128,128,.07); font-size: 0.93rem; }
+    .notice.important { border-left-color: #b45309; background: rgba(180,83,9,.08); }
+    .notice.legal { border-left-color: #374151; font-size: 0.9rem; }
+    a { color: #2563eb; }
+    @media (prefers-color-scheme: dark) { a { color: #7ba6ff; } }
+    code { font-size: 0.88em; word-break: break-word; }
+    .en { margin-top: 3rem; padding-top: 2rem; border-top: 2px solid rgba(128,128,128,.35); }
+    .small { font-size: 0.85rem; color: #666; }
+    @media (prefers-color-scheme: dark) { .small { color: #999; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>技术支持 — ReadyKids</h1>
+  <p class="meta">
+    <strong>版本 / Version：</strong>v2026-05-18<br />
+    <strong>更新日期 / Updated：</strong>2026 年 5 月 18 日<br />
+    <strong>应用 / App：</strong>ReadyKids（Apple App Store，Bundle ID：<code>com.jchen.ReadyKids</code>）<br />
+    <strong>运营者 / Operator：</strong>独立个人开发者<br />
+    <strong>支持邮箱 / Support：</strong>
+    <a href="mailto:hello@familymedvault.com?subject=ReadyKids%20Support">hello@familymedvault.com</a>
+    <span class="small">（仅用于 ReadyKids 支持及与本应用相关的法律通信；不表示与其他应用或公司存在隶属关系。）</span>
+  </p>
+</header>
+
+<div class="notice important">
+  <p><strong>紧急说明：</strong>ReadyKids <strong>不提供</strong>紧急服务、医疗急救、心理危机干预或 ADHD 临床诊疗。若您或他人有紧急危险，请立即拨打当地紧急电话或联系专业机构。</p>
+</div>
+
+<div class="notice">
+  <p><strong>产品定位：</strong>ReadyKids 是供家长/监护人协助儿童完成<strong>晨间、睡前或放学后流程</strong>的<strong>本地优先</strong>家庭工具。流程与孩子进度默认仅存于您的设备；运营者<strong>不运营</strong>可远程查看或恢复该等内容的云端客服后台。<strong>我们无法在邮件中「远程登录」您的设备或找回未备份的本地数据。</strong></p>
+</div>
+
+<div class="notice legal">
+  <p><strong>支持范围说明：</strong>本页面描述的是运营者作为独立开发者提供的<strong>合理努力</strong>支持，不构成 24/7 实时客服、结果保证或托管服务。技术支持按「现状」提供；具体权利义务以 <a href="eula.html">EULA</a> 为准。</p>
+</div>
+
+<nav class="toc" aria-label="目录">
+  <strong>目录</strong>
+  <ol>
+    <li><a href="#t1">如何联系我们</a></li>
+    <li><a href="#t2">系统要求</a></li>
+    <li><a href="#t3">功能概览（当前版本）</a></li>
+    <li><a href="#t4">免费版与 ReadyKids Plus</a></li>
+    <li><a href="#t5">常见问题</a></li>
+    <li><a href="#t6">订阅、恢复购买与退款（Apple）</a></li>
+    <li><a href="#t7">隐私与数据</a></li>
+    <li><a href="#t8">法律文档</a></li>
+    <li><a href="#t9">支持免责声明</a></li>
+  </ol>
+</nav>
+
+<h2 id="t1">1. 如何联系我们</h2>
+<p>请发送邮件至：<a href="mailto:hello@familymedvault.com?subject=ReadyKids%20Support">hello@familymedvault.com</a>（建议主题包含 <strong>ReadyKids</strong>）。为便于排查，请尽量提供：</p>
+<ul>
+  <li>问题简述与复现步骤（例如：从首页点「开始晨间」后卡在某一步）；</li>
+  <li>应用版本号（App Store 应用信息或设置页）；</li>
+  <li>设备型号与 iOS 版本；</li>
+  <li>当前档位（免费 / Plus 月订 / Lifetime）；</li>
+  <li>是否开启语音、触觉、深色模式、ADHD 模式；</li>
+  <li>相关截图（<strong>请勿</strong>包含儿童真实姓名、学校、地址等敏感信息；可用昵称代替）。</li>
+</ul>
+<p><strong>响应时间：</strong>独立开发者通常在 <strong>3–7 个工作日</strong>内回复（节假日可能顺延）。我们<strong>不保证</strong> 24 小时实时响应。重复、辱骂、明显无关或含恶意内容的邮件，可能在法律允许范围内不予回复。</p>
+<p><strong>语言：</strong>建议优先使用<strong>英文或中文</strong>；其他语言我们可能无法提供同等质量的支持。</p>
+
+<h2 id="t2">2. 系统要求</h2>
+<ul>
+  <li><strong>平台：</strong>通过 Apple App Store 安装的 ReadyKids iOS 应用（iPhone；iPad 以 App Store 标注的兼容方式运行）；</li>
+  <li><strong>网络：</strong>核心晨间流程、编辑步骤、本地周报（Plus）可<strong>离线</strong>使用；应用内购买验证、打开本支持/法律网页需网络；</li>
+  <li><strong>权限（按功能触发）：</strong>可选语音合成（TTS）、可选触觉反馈；无持续定位权限；</li>
+  <li><strong>语言：</strong>应用内支持中文 / 英文切换。</li>
+</ul>
+
+<h2 id="t3">3. 功能概览（当前设计基线）</h2>
+<p>ReadyKids 围绕三个核心页面设计，帮助家庭「少催促、少遗漏、少迟到、少崩溃」：</p>
+<ol>
+  <li><strong>家长首页（Home）：</strong>查看孩子当日进度，点击全应用主操作 <strong>「START MORNING / 开始晨间」</strong>；底部可进入编辑流程、出门检查、周报（Plus）；</li>
+  <li><strong>儿童流程页（Kid Flow）：</strong>一次只显示一个任务，大按钮「完成」；视觉时间（太阳/火箭进度，非焦虑红色倒计时）；完成后鼓励动画与语音；</li>
+  <li><strong>出门前检查（Leave Home Check）：</strong>午餐盒、水瓶、作业、Chromebook、运动包、外套等清单，完成后「准备出发」。</li>
+</ol>
+<p><strong>当前版本明确不提供：</strong>AI 聊天、社交网络、成长游戏化体系、多账户家庭权限后台、Google Calendar 集成、复杂云端统计后台、医疗诊断或紧急响应。<strong>免费版与付费版均无第三方广告。</strong></p>
+
+<h2 id="t4">4. 免费版与 ReadyKids Plus / Lifetime</h2>
+<table>
+  <thead>
+    <tr><th>档位</th><th>典型权益</th><th>App Store 产品 ID</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>免费版</strong></td>
+      <td>1 个孩子、1 套晨间流程、基础动画与语音、离线、无广告</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><strong>Plus 月订</strong></td>
+      <td>多孩子、睡前/放学流程、ADHD 高级模式、高级主题与语音、家庭同步（若提供）、周报等</td>
+      <td><code>com.jchen.ReadyKids.plus.monthly</code></td>
+    </tr>
+    <tr>
+      <td><strong>Lifetime</strong></td>
+      <td>一次性买断 Plus 级功能（以应用内展示为准）</td>
+      <td><code>com.jchen.ReadyKids.lifetime</code></td>
+    </tr>
+  </tbody>
+</table>
+<p class="small">价格以 App Store 显示为准（如 Plus 约 $1.99/月、Lifetime 约 $9.99）。功能边界可能随版本更新调整，以应用内说明及更新后的法律文件为准。</p>
+
+<h2 id="t5">5. 常见问题</h2>
+
+<h3>5.1 如何开始一次晨间流程？</h3>
+<ol>
+  <li>在家长首页选择孩子（免费版仅第一个孩子可用；第二个孩子需 Plus）；</li>
+  <li>点击 <strong>「START MORNING / 开始晨间」</strong>；</li>
+  <li>进入儿童全屏流程页，按提示完成每一步并点「完成」；</li>
+  <li>全部完成后会引导至「出门前检查」。</li>
+</ol>
+
+<h3>5.2 语音不播放或没有声音</h3>
+<ol>
+  <li>在「设置」中确认 <strong>语音提醒</strong> 已开启；</li>
+  <li>关闭 iPhone 静音拨片 / 调高媒体音量；</li>
+  <li>确认未连接仅支持通话的蓝牙设备；</li>
+  <li>语音由系统 TTS 在本机播放，不上传录音；若系统语言与 App 语言不一致，音色可能不同；</li>
+  <li>Plus 用户可在设置中选择高级语音包（若已提供）。</li>
+</ol>
+
+<h3>5.3 什么是 ADHD 模式 / ADHD 高级模式？</h3>
+<ul>
+  <li><strong>基础 ADHD 友好设计（免费）：</strong>儿童页一次只显示一个任务、少文字、无红色警告式 UI；</li>
+  <li><strong>ADHD 高级模式（Plus）：</strong>隐藏步骤编号与「下一步」预告、更大完成按钮、纯视觉时间（隐藏数字时钟）等。</li>
+</ul>
+<p>二者均为<strong>界面与节奏辅助</strong>，不构成医疗或心理治疗。详见 <a href="eula.html">EULA</a>。</p>
+
+<h3>5.4 第二个孩子显示锁定（🔒 Plus）</h3>
+<p>免费版仅支持 <strong>1 个孩子</strong>。如需为多名儿童分别记录流程，请订阅 ReadyKids Plus 或购买 Lifetime，并在应用内 Paywall 完成购买后重试。</p>
+
+<h3>5.5 睡前 / 放学流程在哪里？</h3>
+<p>在 <strong>编辑流程（Edit Routine）</strong> 顶部切换「早晨 / 睡前 / 放学」。免费版仅「早晨」可用；Plus 解锁其余类型。</p>
+
+<h3>5.6 数据会丢吗？如何备份？</h3>
+<p>数据默认保存在<strong>本机</strong>。卸载 App、清除数据或恢复设备且未备份，可能导致数据丢失。<strong>运营者无法远程恢复。</strong></p>
+<ul>
+  <li>在「设置」中使用 <strong>导出我的数据</strong> 保存 JSON 副本（建议定期备份到 iCloud Drive / 电脑）；</li>
+  <li>使用 <strong>删除所有数据</strong> 可清除本地记录（不可撤销）；</li>
+  <li>启用 iCloud 整机备份时，应用数据可能包含在备份中（由 Apple 管理，非运营者可访问）。</li>
+</ul>
+
+<h3>5.7 周报是空的或无法打开</h3>
+<p>周报需先完成若干次晨间流程后才会生成统计。<strong>周报为 Plus 功能</strong>；免费用户点击会引导至订阅页。</p>
+
+<h3>5.8 出门检查清单可以单独用吗？</h3>
+<p>可以。在家长首页底部点击 <strong>Backpack Check / 出门检查</strong>，无需先完成晨间流程也可勾选物品。</p>
+
+<h3>5.9 深色模式 / 语言</h3>
+<p>在应用内顶部按钮切换 🌙 深色模式；「中文 / EN」切换界面语言。法律页面语言以各 HTML 页面为准。</p>
+
+<h3>5.10 欢迎页想再看一次</h3>
+<p>卸载并重装会重新显示引导；或清除应用数据。运营者不提供远程重置服务。</p>
+
+<h3>5.11 应用崩溃或无法打开</h3>
+<ol>
+  <li>重启设备后重试；</li>
+  <li>在 App Store 检查 ReadyKids 是否为最新版本；</li>
+  <li>若刚更新 iOS，请等待系统稳定后重试；</li>
+  <li>仍失败请邮件联系我们，附上 iOS 版本与崩溃前操作（勿附儿童隐私截图）。</li>
+</ol>
+<p>我们<strong>不保证</strong>应用在所有越狱、测试版 iOS 或极端低存储设备上完美运行。</p>
+
+<h2 id="t6">6. 订阅、恢复购买与退款（Apple）</h2>
+<p>所有购买与订阅由 <strong>Apple App Store</strong> 处理；运营者<strong>不</strong>直接收款或办理退款。</p>
+<ul>
+  <li><strong>购买 / 升级：</strong>应用内 Paywall 或 App Store 商品页；</li>
+  <li><strong>管理订阅：</strong>iOS「设置 → [您的姓名] → 订阅 → ReadyKids」；</li>
+  <li><strong>自动续订（Plus）：</strong>除非在当前周期结束前至少 24 小时取消，否则将自动续期；</li>
+  <li><strong>恢复购买：</strong>应用内「恢复购买」（StoreKit 接入后）或 App Store「已购项目」，须使用购买时的同一 Apple ID；</li>
+  <li><strong>家人共享：</strong>若您在 Apple 侧为符合条件的购买开启了家人共享，适用 Apple 规则；</li>
+  <li><strong>退款：</strong>请通过 <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a> 或 Apple 支持申请；我们无法替代 Apple 处理拒付或退款审批。</li>
+</ul>
+<p>账单争议、订阅价格变动以 Apple 媒体服务条款及商店显示为准。</p>
+
+<h2 id="t7">7. 隐私与数据</h2>
+<ul>
+  <li>默认数据在设备本地；详见 <a href="privacy-policy.html">隐私政策</a>；</li>
+  <li>首次使用会显示 GDPR 同意门；您可选择仅必要、或开启可选分析/同步（若版本提供）；</li>
+  <li>请勿在邮件中发送不必要的儿童个人信息；隐私请求主题请注明 ReadyKids Privacy。</li>
+</ul>
+
+<h2 id="t8">8. 法律文档</h2>
+<p>
+  <a href="privacy-policy.html">隐私政策</a> ·
+  <a href="eula.html">用户协议（EULA）</a> ·
+  本页（技术支持）
+</p>
+<p>App Store Connect 填写的支持 URL 应指向本页面公开 HTTPS 地址。</p>
+
+<h2 id="t9">9. 支持免责声明（开发者保护）</h2>
+<div class="notice legal">
+  <p>在适用法律允许的最大范围内：</p>
+  <ul>
+    <li>运营者提供的邮件支持为善意协助，<strong>不保证</strong>问题一定解决、一定在特定时限内解决，或一定能达到您预期的育儿/到校结果；</li>
+    <li>因您未备份、设备故障、误删数据、未经授权购买、违反 EULA 使用等导致的损失，运营者不承担责任；</li>
+    <li>运营者提供的操作指引如有与最新版本界面细微差异，以应用内实际界面为准；</li>
+    <li>您向支持邮箱发送的信息由您自行负责；请勿发送违法内容或他人未经授权的个人信息；</li>
+    <li>Apple 负责 App Store 分发、支付与系统服务；系统级问题请联系 <a href="https://support.apple.com" rel="noopener">Apple 支持</a>。</li>
+  </ul>
+  <p>完整责任限制见 <a href="eula.html">EULA</a> 第 11–13 条。</p>
+</div>
+
+<!-- ==================== ENGLISH ==================== -->
+
+<section class="en" lang="en" id="english">
+  <h1>Technical Support — ReadyKids (English)</h1>
+  <p class="meta">v2026-05-18 · Bundle ID: <code>com.jchen.ReadyKids</code></p>
+
+  <div class="notice important">
+    <p><strong>Emergency:</strong> ReadyKids is not an emergency, medical, mental-health, or crisis service. Call local emergency services if needed.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:hello@familymedvault.com?subject=ReadyKids%20Support">hello@familymedvault.com</a> with subject line <strong>ReadyKids</strong>. Include app version, iOS version, device model, steps to reproduce, and plan (Free / Plus / Lifetime). Avoid sensitive child data in screenshots.</p>
+  <p>Typical response: <strong>3–7 business days</strong>. No 24/7 guarantee.</p>
+
+  <h2>What ReadyKids does</h2>
+  <p>Three core screens: Parent Home (START MORNING), Kid Flow (one task at a time), Leave Home Check (backpack list). Local-first storage. No ads. No AI chat or social features.</p>
+
+  <h2>Plans</h2>
+  <ul>
+    <li><strong>Free:</strong> 1 child, 1 morning routine, basic animation/voice, offline;</li>
+    <li><strong>Plus:</strong> <code>com.jchen.ReadyKids.plus.monthly</code>;</li>
+    <li><strong>Lifetime:</strong> <code>com.jchen.ReadyKids.lifetime</code>.</li>
+  </ul>
+
+  <h2>Quick fixes</h2>
+  <ul>
+    <li><strong>No voice:</strong> Enable voice in Settings; check mute switch and volume;</li>
+    <li><strong>Lost data:</strong> Data is on-device only—export in Settings before uninstall;</li>
+    <li><strong>Second child locked:</strong> Requires Plus or Lifetime;</li>
+    <li><strong>Subscriptions:</strong> Manage in iOS Settings → Subscriptions; refunds via Apple.</li>
+  </ul>
+
+  <h2>Legal</h2>
+  <p>
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="eula.html">EULA</a>
+  </p>
+  <p class="small">Support is provided as-is without guaranteed outcomes. See EULA for liability limits. Apple handles billing and App Store distribution.</p>
+</section>
+
+</body>
+</html>
